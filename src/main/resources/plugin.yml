@@ -1,0 +1,20 @@
+name: HeartBro
+version: '${version}'
+
+main: pac.chromium.pacperlar.burger
+api-version: '1.21.11'
+load: POSTWORLD
+
+commands:
+  heartbro:
+    description: Main command for HeartBro
+    usage: /heartbro help
+    permission: heartbro.use
+
+permissions:
+  heartbro.use:
+    description: Allows use of basic HeartBro commands
+    default: true
+  heartbro.admin:
+    description: Allows use of admin HeartBro commands
+    default: op
